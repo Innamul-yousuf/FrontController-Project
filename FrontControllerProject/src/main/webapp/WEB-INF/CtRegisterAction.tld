@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib>
+<taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>my tag library</shortname>
+  
+  <tag>
+    <name>register</name>
+    <tagclass>com.CtRegisterAction</tagclass>
+    <bodycontent>empty</bodycontent>
+        <attribute>
+      <name>stuname</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>stuid</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    <attribute>
+      <name>stupass</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+    
+   <attribute>
+      <name>stuclass</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+   
+      
+  </tag>
+</taglib>
+
+
